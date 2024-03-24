@@ -1,0 +1,11 @@
+Screen1 As screen:
+
+    Label1 As label:
+        Align: =Align.Center
+        Height: =103
+        Text: ="Home Screen"
+        Width: =866
+        X: =220
+        Y: =120
+        ZIndex: =1
+
