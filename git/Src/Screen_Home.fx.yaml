@@ -1,4 +1,4 @@
-Screen1 As screen:
+Screen_Home As screen:
 
     con_footer As groupContainer.manualLayoutContainer:
         Height: =73
