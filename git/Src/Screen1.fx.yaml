@@ -29,3 +29,46 @@ Screen1 As screen:
             X: =294
             ZIndex: =1
 
+    Icon1 As icon.Add:
+        Icon: =Icon.Add
+        X: =383
+        Y: =134
+        ZIndex: =4
+
+    TextInput1 As text:
+        Default: =""
+        OnChange: |-
+            =UpdateContext({varValue: Self.Text});
+        X: =63
+        Y: =146
+        ZIndex: =5
+
+    TextInput1_1 As text:
+        Default: =""
+        OnChange: |-
+            =UpdateContext({varValue: Self.Text});
+        X: =459
+        Y: =146
+        ZIndex: =6
+
+    TextInput1_2 As text:
+        Default: =Value(TextInput1.Text) + Value(TextInput1_1.Text)
+        DisplayMode: |-
+            =If( Value(Self.Text) >= 100, DisplayMode.Edit,
+            
+            DisplayMode.Disabled)
+        OnChange: |-
+            =UpdateContext({varValue: Self.Text});
+        X: =255
+        Y: =266
+        ZIndex: =7
+
+    Label5 As label:
+        Height: =153
+        Text: |-
+            ="Variable: " & varValue
+        Width: =430
+        X: =750
+        Y: =282
+        ZIndex: =8
+
