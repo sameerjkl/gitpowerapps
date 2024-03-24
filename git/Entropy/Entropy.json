@@ -1,27 +1,22 @@
 {
   "ComponentIndexes": {
-    "Component1": 1
+    "Component_header": 1,
+    "Component_header_1": 1
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Component1": 14,
+    "Component_header": 14,
+    "Component_header_1": 16,
     "con_footer": 12,
-    "con_header": 5,
     "Host": 3,
-    "Icon1": 7,
     "Label1": 15,
     "Label3": 13,
-    "Label5": 11,
-    "lbl_header": 6,
-    "Screen1": 4,
-    "TextInput1": 8,
-    "TextInput1_1": 9,
-    "TextInput1_2": 10
+    "Screen1": 4
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "03/24/2024 09:06:15",
+  "HeaderLastSavedDateTimeUTC": "03/24/2024 09:07:20",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": true,
@@ -38,44 +33,30 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "groupContainer": 0,
-    "icon": 2,
-    "label": 1,
-    "text": 3
+    "groupContainer": 1,
+    "label": 0
   },
   "OverridablePropertiesEntry": {
     "App": {},
-    "Component1": {},
+    "Component_header": {},
+    "Component_header_1": {},
     "con_footer": {},
-    "con_header": {},
     "Host": {},
-    "Icon1": {},
     "Label1": {},
     "Label3": {},
-    "Label5": {},
-    "lbl_header": {},
-    "Screen1": {},
-    "TextInput1": {},
-    "TextInput1_1": {},
-    "TextInput1_2": {}
+    "Screen1": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
-    "Component1": 0,
-    "con_footer": 7,
-    "con_header": 0,
+    "Component_header": 0,
+    "Component_header_1": 0,
+    "con_footer": 1,
     "Host": 0,
-    "Icon1": 2,
-    "Label1": 0,
-    "Label3": 8,
-    "Label5": 6,
-    "lbl_header": 1,
-    "Screen1": 0,
-    "TextInput1": 3,
-    "TextInput1_1": 4,
-    "TextInput1_2": 5
+    "Label1": 3,
+    "Label3": 2,
+    "Screen1": 0
   },
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
@@ -83,6 +64,7 @@
   "VolatileProperties": {
     "AnalysisLoadTime": 0.093613,
     "ControlCount": {
+      "94e93de1de7247b1b883e63e2f67feab": 1,
       "groupContainer": 2,
       "icon": 1,
       "label": 3,

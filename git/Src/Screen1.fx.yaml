@@ -1,20 +1,5 @@
 Screen1 As screen:
 
-    con_header As groupContainer.manualLayoutContainer:
-        Height: =Parent.Height
-        Width: =Parent.Width
-        ZIndex: =1
-
-        lbl_header As label:
-            Align: =Align.Center
-            FontWeight: =FontWeight.Semibold
-            Height: =86
-            Size: =16
-            Text: ="Hi-Tech Freak"
-            Width: =836
-            X: =244
-            ZIndex: =1
-
     con_footer As groupContainer.manualLayoutContainer:
         Height: =73
         Width: =Parent.Width
@@ -29,47 +14,6 @@ Screen1 As screen:
             X: =294
             ZIndex: =1
 
-    Icon1 As icon.Add:
-        Icon: =Icon.Add
-        X: =383
-        Y: =134
-        ZIndex: =4
-
-    TextInput1 As text:
-        Default: =""
-        OnChange: |-
-            =UpdateContext({varValue: Self.Text});
-        X: =63
-        Y: =146
-        ZIndex: =5
-
-    TextInput1_1 As text:
-        Default: =""
-        OnChange: |-
-            =UpdateContext({varValue: Self.Text});
-        X: =459
-        Y: =146
-        ZIndex: =6
-
-    TextInput1_2 As text:
-        Default: =Value(TextInput1.Text) + Value(TextInput1_1.Text)
-        DisplayMode: |-
-            =If( Value(Self.Text) >= 100, DisplayMode.Edit,
-            
-            DisplayMode.Disabled)
-        OnChange: |-
-            =UpdateContext({varValue: Self.Text});
-        X: =255
-        Y: =266
-        ZIndex: =7
-
-    Label5 As label:
-        Align: =Align.Center
-        Height: =140
-        Text: |-
-            ="Variable: " & varValue
-        Width: =430
-        X: =750
-        Y: =282
-        ZIndex: =8
+    Component_header_1 As Component_header:
+        ZIndex: =3
 
