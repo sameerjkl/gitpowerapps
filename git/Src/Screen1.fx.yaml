@@ -1,11 +1,17 @@
 Screen1 As screen:
 
-    Label1 As label:
-        Align: =Align.Center
-        Height: =103
-        Text: ="Home Screen"
-        Width: =866
-        X: =220
-        Y: =120
+    Container1 As groupContainer.manualLayoutContainer:
+        Height: =86
+        Width: =1366
         ZIndex: =1
+
+        Label2 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
+            Height: =86
+            Size: =16
+            Text: ="Hi-Tech Freak"
+            Width: =836
+            X: =244
+            ZIndex: =1
 
