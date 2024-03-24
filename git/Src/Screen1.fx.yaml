@@ -1,8 +1,8 @@
 Screen1 As screen:
 
     con_header As groupContainer.manualLayoutContainer:
-        Height: =86
-        Width: =1366
+        Height: =Parent.Height
+        Width: =Parent.Width
         ZIndex: =1
 
         lbl_header As label:
@@ -17,7 +17,7 @@ Screen1 As screen:
 
     con_footer As groupContainer.manualLayoutContainer:
         Height: =73
-        Width: =1366
+        Width: =Parent.Width
         Y: =694
         ZIndex: =2
 

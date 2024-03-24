@@ -98,7 +98,7 @@
       "usenonblockingonstartrule": true,
       "userdefinedfunctions": false,
       "webbarcodescanner": false,
-      "zeroalltabindexes": true
+      "zeroalltabindexes": false
     },
     "Author": "",
     "BindingErrorCount": 0,
@@ -117,7 +117,7 @@
     "Id": "be7488b1-fd4b-4732-a65c-db833922e06e",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "",
-    "ManualOfflineProfileId": null,
+    "ManualOfflineProfileId": "",
     "Name": "GIT App",
     "OriginatingVersion": "1.338",
     "ParserErrorCount": 0,
