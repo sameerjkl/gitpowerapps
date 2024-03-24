@@ -64,7 +64,8 @@ Screen1 As screen:
         ZIndex: =7
 
     Label5 As label:
-        Height: =153
+        Align: =Align.Center
+        Height: =140
         Text: |-
             ="Variable: " & varValue
         Width: =430

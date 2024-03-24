@@ -1,12 +1,16 @@
 {
-  "ComponentIndexes": {},
+  "ComponentIndexes": {
+    "Component1": 1
+  },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
+    "Component1": 14,
     "con_footer": 12,
     "con_header": 5,
     "Host": 3,
     "Icon1": 7,
+    "Label1": 15,
     "Label3": 13,
     "Label5": 11,
     "lbl_header": 6,
@@ -17,14 +21,18 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "03/24/2024 08:57:46",
+  "HeaderLastSavedDateTimeUTC": "03/24/2024 09:06:15",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": true,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
-  "OrderComponentMetadata": {},
-  "OrderComponentTemplate": {},
+  "OrderComponentMetadata": {
+    "94e93de1de7247b1b883e63e2f67feab": 0
+  },
+  "OrderComponentTemplate": {
+    "94e93de1de7247b1b883e63e2f67feab": 0
+  },
   "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
@@ -37,10 +45,12 @@
   },
   "OverridablePropertiesEntry": {
     "App": {},
+    "Component1": {},
     "con_footer": {},
     "con_header": {},
     "Host": {},
     "Icon1": {},
+    "Label1": {},
     "Label3": {},
     "Label5": {},
     "lbl_header": {},
@@ -53,10 +63,12 @@
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
+    "Component1": 0,
     "con_footer": 7,
     "con_header": 0,
     "Host": 0,
     "Icon1": 2,
+    "Label1": 0,
     "Label3": 8,
     "Label5": 6,
     "lbl_header": 1,
