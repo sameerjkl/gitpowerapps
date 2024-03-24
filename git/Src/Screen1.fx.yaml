@@ -1,11 +1,11 @@
 Screen1 As screen:
 
-    Container1 As groupContainer.manualLayoutContainer:
+    con_header As groupContainer.manualLayoutContainer:
         Height: =86
         Width: =1366
         ZIndex: =1
 
-        Label2 As label:
+        lbl_header As label:
             Align: =Align.Center
             FontWeight: =FontWeight.Semibold
             Height: =86
@@ -13,5 +13,19 @@ Screen1 As screen:
             Text: ="Hi-Tech Freak"
             Width: =836
             X: =244
+            ZIndex: =1
+
+    con_footer As groupContainer.manualLayoutContainer:
+        Height: =73
+        Width: =1366
+        Y: =694
+        ZIndex: =2
+
+        Label3 As label:
+            Align: =Align.Center
+            Height: =73
+            Text: ="Copy right"
+            Width: =780
+            X: =294
             ZIndex: =1
 
